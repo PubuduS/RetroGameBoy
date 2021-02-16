@@ -1,0 +1,16 @@
+# Compiled Object files
+*.o
+
+# Ignore all text files
+*.txt
+
+# Ignore all documentation
+Docs/
+
+# Ignore executable
+Tetris
+
+# Ignore commit message file
+message
+
+
