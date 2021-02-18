@@ -1,10 +1,4 @@
 #include "include/Tetris.h"
-#include <thread>
-
-void Tetris::Something()
-{
-   Hello();
-}
 
 Tetris::Tetris()
 {
@@ -238,7 +232,20 @@ void Tetris::CheckLines()
 
 }
 
- void Tetris::Draw( Sprite& sprite, Sprite& background, Sprite& frame, RenderWindow& window, const int& colorNum )
+int Tetris::CalculateScore()
+{
+   int score = 0;
+   // Need to be Implemented.
+   return score;
+}
+
+void Tetris::GameOverScreen( RenderWindow& window, const Sprite& s_GameOver )
+{
+   //This function is not implemented yet.
+   std::cout<<" I have nothing to do "<<std::endl;
+}
+
+void Tetris::Draw( Sprite& sprite, Sprite& background, Sprite& frame, RenderWindow& window, const int& colorNum )
  {
      // Draw
     window.clear( Color::White );
@@ -273,11 +280,11 @@ void Tetris::CheckLines()
     
     
     Font font; 
-    font.loadFromFile("fonts/arial.ttf");   
-    Text text("Score:", font, 30);
-    text.setPosition(window.getSize().x*0.09, window.getSize().y - text.getGlobalBounds().height - text.getGlobalBounds().top );
-    text.setColor(sf::Color::Red);
-    window.draw(text);  
+    font.loadFromFile( "fonts/arial.ttf" );   
+    Text text( "Score:", font, 30 );
+    text.setPosition( window.getSize().x*0.09, window.getSize().y - text.getGlobalBounds().height - text.getGlobalBounds().top );
+    text.setColor( sf::Color::Red );
+    window.draw( text );  
     
     window.draw( frame );
     window.display();  

@@ -51,10 +51,11 @@ class Tetris : public GameGenerics
    void CheckLines();
    void Draw( Sprite& sprite, Sprite& background, Sprite& frame, RenderWindow& window, const int& colorNum );
    void EventHandler( bool& rotate, int& dx, RenderWindow& window );
+   virtual int CalculateScore();
+   virtual void GameOverScreen( RenderWindow& window, const Sprite& s_GameOver );
    
    public:
-   Tetris();
-   void Something();
+   Tetris();   
    void PlayTetris();
   
 

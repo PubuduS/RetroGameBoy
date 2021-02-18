@@ -2,10 +2,10 @@
 # In order to execute this "Makefile" just type "make"
 #
 
-OBJS	 = main.o GameGenerics.o Tetris.o
-SOURCE	 = main.cpp GameGenerics.cpp Tetris.cpp
-HEADER	 = GameGenerics.h Tetris.h
-OUT	 = Tetris
+OBJS	 = main.o GameGenerics.o Tetris.o Arkanoid.o
+SOURCE	 = main.cpp GameGenerics.cpp Tetris.cpp Arkanoid.cpp
+HEADER	 = GameGenerics.h Tetris.h Arkanoid.h
+OUT	 = GameBoy
 CC	 = g++
 FLAGS	 = -g -c -Wall -Iinclude/
 LFLAGS	 = -lsfml-graphics -lsfml-window -lsfml-system
@@ -17,7 +17,7 @@ YFLAGS   =
 
 all: $(OBJS)
 	$(CC) -g $(OBJS) -o $(OUT) $(LFLAGS)	
-	doxygen GameDocs_Configs
+	#doxygen GameDocs_Configs
 	echo "Done"
 
 
@@ -30,6 +30,9 @@ GameGenerics.o: GameGenerics.cpp
 
 Tetris.o: Tetris.cpp
 	$(CC) $(FLAGS) Tetris.cpp -std=c++11
+
+Arkanoid.o: Arkanoid.cpp
+	$(CC) $(FLAGS) Arkanoid.cpp -std=c++11
 
 
 # clean up

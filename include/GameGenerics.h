@@ -12,12 +12,12 @@ class GameGenerics
 
    private:
    
-   protected:
-
+   protected:   
    
    public:
-   GameGenerics();
-   void Hello();   
+   GameGenerics();    
+   virtual int CalculateScore() = 0; 
+   virtual void GameOverScreen( RenderWindow& window, const Sprite& s_GameOver ) = 0;
   
 };
 
