@@ -17,24 +17,20 @@ void Arkanoid::InitializeVars()
    Texture texture3;
    Texture texture4;
    Texture texture5;
-   Texture texture6;
 
    texture1.loadFromFile( IMAGEPATH+"block01.png" );
    texture2.loadFromFile( IMAGEPATH+"background.jpg" );
    texture3.loadFromFile( IMAGEPATH+"ball.png" );
    texture4.loadFromFile( IMAGEPATH+"paddle.png" );
    texture5.loadFromFile( IMAGEPATH+"Heart.png" );
-   texture6.loadFromFile( IMAGEPATH+"gameover.png" );
 
    Sprite s_Background( texture2 );
    Sprite s_Ball( texture3 );
    Sprite s_Paddle( texture4 );
    Sprite s_Lives( texture5 );
-   Sprite s_GameOver( texture6 );
 
    s_Paddle.setPosition( 300, 440 );
    s_Ball.setPosition( 300, 300 );
-   s_GameOver.setPosition( 50, 50 );
 
    Sprite block[1000];
    Sprite lives[3];
@@ -57,7 +53,7 @@ void Arkanoid::InitializeVars()
 
    blocksRemain = n;
 
-   PlayArkanoid( window, s_Background, s_Ball, s_Paddle, s_GameOver, block, lives, texture1 );
+   PlayArkanoid( window, s_Background, s_Ball, s_Paddle, block, lives, texture1 );
 }
 
 void Arkanoid::CheckCollisions( float& xAxis, float& xPos, float& yAxis, float& yPos, Sprite* block, const bool isVertical = false )
@@ -165,7 +161,7 @@ int Arkanoid::CalculateScore()
    return score;
 }
 
-void Arkanoid::PlayArkanoid( RenderWindow& window, Sprite& s_Background, Sprite& s_Ball, Sprite& s_Paddle, Sprite& s_GameOver, Sprite* block, Sprite* lives, Texture& texture1 )
+void Arkanoid::PlayArkanoid( RenderWindow& window, Sprite& s_Background, Sprite& s_Ball, Sprite& s_Paddle, Sprite* block, Sprite* lives, Texture& texture1 )
 {
 
    srand( time( 0 ) );
@@ -229,7 +225,7 @@ void Arkanoid::PlayArkanoid( RenderWindow& window, Sprite& s_Background, Sprite&
       else
       {
           //Draw Sprites
-          GameOverScreen( window, s_GameOver );
+          GameOverScreen( window );
       }
 
    }

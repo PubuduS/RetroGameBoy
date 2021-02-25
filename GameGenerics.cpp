@@ -6,8 +6,12 @@ GameGenerics::GameGenerics()
 
 }
 
-void GameGenerics::GameOverScreen( RenderWindow& window, const Sprite& s_GameOver )
+void GameGenerics::GameOverScreen( RenderWindow& window )
 {
+    Texture texture;
+    texture.loadFromFile( "images/Arkanoid_Img/gameover.png" );
+    Sprite s_GameOver( texture );
+    s_GameOver.setPosition( 50, 50 );
 
     window.clear();
     window.draw( s_GameOver );
@@ -18,7 +22,7 @@ void GameGenerics::GameOverScreen( RenderWindow& window, const Sprite& s_GameOve
     Font font;
     font.loadFromFile( "fonts/arial.ttf" );
     Text text( textstring.c_str(), font, 30 );
-    text.setPosition( 100, 300 );
+    text.setPosition( 100, 250 );
     text.setColor( sf::Color::Red );
     window.draw( text );
 

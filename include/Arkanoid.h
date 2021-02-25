@@ -52,7 +52,7 @@ class Arkanoid : public GameGenerics
    bool isGameOver;
 
    //! Start the game and call other helper functions.
-   void PlayArkanoid( RenderWindow& window, Sprite& s_Background, Sprite& s_Ball, Sprite& s_Paddle, Sprite& s_GameOver, Sprite* block, Sprite* lives, Texture& texture1 );
+   void PlayArkanoid( RenderWindow& window, Sprite& s_Background, Sprite& s_Ball, Sprite& s_Paddle, Sprite* block, Sprite* lives, Texture& texture1 );
 
    //! This will check collisions with the tiles and the ball.
    //! Everytime the ball hit a tile, this record a collision and hide the tile by throwing it far away from the x axis.

@@ -2,9 +2,9 @@
 # In order to execute this "Makefile" just type "make"
 #
 
-OBJS	 = main.o GameGenerics.o Tetris.o Arkanoid.o
-SOURCE	 = main.cpp GameGenerics.cpp Tetris.cpp Arkanoid.cpp
-HEADER	 = GameGenerics.h Tetris.h Arkanoid.h
+OBJS	 = main.o GameGenerics.o Tetris.o Arkanoid.o Snake.o
+SOURCE	 = main.cpp GameGenerics.cpp Tetris.cpp Arkanoid.cpp Snake.cpp
+HEADER	 = GameGenerics.h Tetris.h Arkanoid.h Snake.h
 OUT	 = GameBoy
 CC	 = g++
 FLAGS	 = -g -c -Wall -Iinclude/
@@ -33,6 +33,9 @@ Tetris.o: Tetris.cpp
 
 Arkanoid.o: Arkanoid.cpp
 	$(CC) $(FLAGS) Arkanoid.cpp -std=c++11
+
+Snake.o: Snake.cpp
+	$(CC) $(FLAGS) Snake.cpp -std=c++11
 
 
 # clean up

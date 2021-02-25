@@ -18,7 +18,7 @@ class GameGenerics
    //! Currently, every game has the same game over screen.
    //! If each and every game needs a different screen, it might be a good idea to
    //! make it a pure virtual function.
-   void GameOverScreen( RenderWindow& window, const Sprite& s_GameOver );
+   void GameOverScreen( RenderWindow& window );
 
    public:
 
