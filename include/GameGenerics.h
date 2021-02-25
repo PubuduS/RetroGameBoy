@@ -11,24 +11,26 @@ class GameGenerics
 {
 
    private:
-   
-   protected:   
-   
+
+   protected:
+
+   //! Display a game over screen at the end of the game alone with user's score.
+   //! Currently, every game has the same game over screen.
+   //! If each and every game needs a different screen, it might be a good idea to
+   //! make it a pure virtual function.
+   void GameOverScreen( RenderWindow& window, const Sprite& s_GameOver );
+
    public:
-   
+
    //! Default Constructor for GameGenerics.
    //! This is a abstract class and you cannot instantiate this class.
    GameGenerics();
-   
+
    //! Pure virtual function inherited from GameGenerics.h
-   //! Each game calculate scores differently and therefore this function need to override in each game according to the game rules. 
+   //! Each game calculate scores differently and therefore this function need to override in each game according to the game rules.
    virtual int CalculateScore() = 0;
-   
-   //! Pure virtual function inherited from GameGenerics.h
-   //! Each game might have different game over screen.
-   //! Therefore this function need to override in each game according to the game rules.
-   virtual void GameOverScreen( RenderWindow& window, const Sprite& s_GameOver ) = 0;
-  
+
+
 };
 
 #endif
