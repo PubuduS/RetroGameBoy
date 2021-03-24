@@ -1,6 +1,6 @@
 #include <iostream>
 #include <string>
-#include "include/Arkanoid.h"
+#include "../include/Arkanoid.h"
 
 Arkanoid::Arkanoid() : n( 0 ), blocksRemain( 0 ), remainingLives( 8 ), isGameOver( false )
 {

@@ -1,5 +1,5 @@
 #include <unistd.h>
-#include "include/GameGenerics.h"
+#include "../include/GameGenerics.h"
 
 GameGenerics::GameGenerics()
 {

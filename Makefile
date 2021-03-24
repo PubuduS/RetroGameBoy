@@ -1,10 +1,11 @@
 #
 # In order to execute this "Makefile" just type "make"
 #
-
-OBJS	 = main.o GameGenerics.o Tetris.o Arkanoid.o Snake.o
-SOURCE	 = main.cpp GameGenerics.cpp Tetris.cpp Arkanoid.cpp Snake.cpp
-HEADER	 = GameGenerics.h Tetris.h Arkanoid.h Snake.h
+ODIR = obj
+LOC = src/
+OBJS	 = obj/main.o obj/GameGenerics.o obj/Tetris.o obj/Arkanoid.o obj/Snake.o
+SOURCE	 = src/*.cpp
+HEADER	 = *.h
 OUT	 = GameBoy
 CC	 = g++
 FLAGS	 = -g -c -Wall -Iinclude/
@@ -15,30 +16,37 @@ YFLAGS   =
 # -g option enables debugging mode 
 # -c flag generates object code for separate files
 
-all: $(OBJS)
-	$(CC) -g $(OBJS) -o $(OUT) $(LFLAGS)	
-	#doxygen GameDocs_Configs
+##########################################
+#    Don't touch anything below this     #
+##########################################
+all: $(OBJS)   
+	$(CC) -g $(OBJS) -o $(OUT) $(LFLAGS)
+	# uncomment below line if you have doxygen support to generate documentation	
+	# doxygen GameDocs_Configs    
 	echo "Done"
-
+	
+# dummy folder to create a directory for object files.
+dummy_build_folder := $(shell mkdir -p $(ODIR))
 
 # create/compile the individual files >>separately<<
-main.o: main.cpp
-	$(CC) $(FLAGS) main.cpp -std=c++11
+obj/main.o: $(LOC)main.cpp
+	$(CC) $(FLAGS) $(LOC)main.cpp -std=c++11 -o obj/main.o
 
-GameGenerics.o: GameGenerics.cpp
-	$(CC) $(FLAGS) GameGenerics.cpp -std=c++11
+obj/GameGenerics.o: $(LOC)GameGenerics.cpp
+	$(CC) $(FLAGS) $(LOC)GameGenerics.cpp -std=c++11 -o obj/GameGenerics.o
 
-Tetris.o: Tetris.cpp
-	$(CC) $(FLAGS) Tetris.cpp -std=c++11
+obj/Tetris.o: $(LOC)Tetris.cpp
+	$(CC) $(FLAGS) $(LOC)Tetris.cpp -std=c++11 -o obj/Tetris.o
 
-Arkanoid.o: Arkanoid.cpp
-	$(CC) $(FLAGS) Arkanoid.cpp -std=c++11
+obj/Arkanoid.o: $(LOC)Arkanoid.cpp
+	$(CC) $(FLAGS) $(LOC)Arkanoid.cpp -std=c++11 -o obj/Arkanoid.o
 
-Snake.o: Snake.cpp
-	$(CC) $(FLAGS) Snake.cpp -std=c++11
+obj/Snake.o: $(LOC)Snake.cpp
+	$(CC) $(FLAGS) $(LOC)Snake.cpp -std=c++11 -o obj/Snake.o
 
 
 # clean up
 clean:
 	rm -f $(OBJS) $(OUT)
 	rm -rf Docs
+	rm -rf $(ODIR)

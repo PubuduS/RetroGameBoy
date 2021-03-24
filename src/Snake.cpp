@@ -1,4 +1,4 @@
-#include "Snake.h"
+#include "../include/Snake.h"
 
 Snake::Snake() : m_direction(0), m_SnakeLength(4), m_Score(0), m_IsGameOver(false)
 {

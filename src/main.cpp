@@ -1,15 +1,8 @@
-#include "include/Tetris.h"
-#include "include/Arkanoid.h"
-#include "include/Snake.h"
+#include "../include/Tetris.h"
+#include "../include/Arkanoid.h"
+#include "../include/Snake.h"
 
-namespace choices
-{
-
- enum GAME { UNKNOWN, TETRIS, ARKANOID, SNAKE };
-
-}
-
-
+// Function Prototypes
 void DisplayMenu();
 
 int main()

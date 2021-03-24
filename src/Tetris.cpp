@@ -1,4 +1,4 @@
-#include "include/Tetris.h"
+#include "../include/Tetris.h"
 
 Tetris::Tetris()
 {

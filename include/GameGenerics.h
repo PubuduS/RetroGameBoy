@@ -7,6 +7,13 @@
 
 using namespace sf;
 
+namespace choices
+{
+
+ enum GAME { UNKNOWN, TETRIS, ARKANOID, SNAKE };
+
+}
+
 class GameGenerics
 {
 
