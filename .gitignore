@@ -13,4 +13,6 @@ GameBoy
 # Ignore commit message file
 message
 
-
+# Ignore pre-complied headers
+*.gch
+ 

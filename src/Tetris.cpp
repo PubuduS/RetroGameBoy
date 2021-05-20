@@ -277,7 +277,7 @@ void Tetris::Draw( Sprite& sprite, Sprite& background, Sprite& frame, RenderWind
     font.loadFromFile( "fonts/arial.ttf" );
     Text text( "Score:", font, 30 );
     text.setPosition( window.getSize().x*0.09, window.getSize().y - text.getGlobalBounds().height - text.getGlobalBounds().top );
-    text.setColor( sf::Color::Red );
+    text.setFillColor( sf::Color::Red );
     window.draw( text );
 
     window.draw( frame );

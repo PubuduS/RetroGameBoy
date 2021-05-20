@@ -1,6 +1,7 @@
 #include "../include/Tetris.h"
 #include "../include/Arkanoid.h"
 #include "../include/Snake.h"
+#include "../include/MineSweeper.h"
 
 // Function Prototypes
 void DisplayMenu();
@@ -33,6 +34,11 @@ int main()
             Snake mySnake;
             break;
         }
+        case choices::MINESWEEPER:
+        {
+            MineSweeper myMineSweeper;
+            break;
+        }
         default:
         {
             std::cout<<" Invalid choice "<<std::endl;
@@ -49,4 +55,5 @@ void DisplayMenu()
     std::cout<<"Press 1 to Play Tetris."<<std::endl;
     std::cout<<"Press 2 to Play Arkanoid."<<std::endl;
     std::cout<<"Press 3 to Play Snake."<<std::endl;
+    std::cout<<"Press 4 to Play MineSweep."<<std::endl;
 }

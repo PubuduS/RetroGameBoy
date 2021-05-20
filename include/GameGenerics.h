@@ -10,7 +10,7 @@ using namespace sf;
 namespace choices
 {
 
- enum GAME { UNKNOWN, TETRIS, ARKANOID, SNAKE };
+ enum GAME { UNKNOWN, TETRIS, ARKANOID, SNAKE, MINESWEEPER };
 
 }
 
