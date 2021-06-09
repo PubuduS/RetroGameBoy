@@ -2,7 +2,7 @@
 *.o
 
 # Ignore all text files
-*.txt
+message.txt
 
 # Ignore all documentation
 Docs/
