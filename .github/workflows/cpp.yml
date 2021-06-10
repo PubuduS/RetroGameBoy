@@ -160,6 +160,17 @@ jobs:
         cp -R /home/runner/work/RetroGameBoy/RetroGameBoy/images .
         ${{ steps.cmake_and_ninja.outputs.cmake_dir }}/cmake -E tar cJfv ../${{ matrix.config.artifact }} .
 
+    # Deploy the HTML documentation to GitHub Pages
+    - name: GH Pages Deployment
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./Docs/html/
+        enable_jekyll: false
+        allow_empty_commit: false
+        force_orphan: true
+        publish_branch: gh-pages
+
 
     - name: Upload
       uses: actions/upload-artifact@v1
