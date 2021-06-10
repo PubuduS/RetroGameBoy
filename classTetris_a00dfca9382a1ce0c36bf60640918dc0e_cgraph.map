@@ -1,0 +1,4 @@
+<map id="Tetris::MoveTile" name="Tetris::MoveTile">
+<area shape="rect" id="node1" title="Move shapes horizontally." alt="" coords="5,5,120,32"/>
+<area shape="rect" id="node2" href="$classTetris.html#ab38bae17ead9e52198afcbd5625ef77c" title="Check the boundaries." alt="" coords="168,5,267,32"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="Arkanoid::InitializeVars" name="Arkanoid::InitializeVars">
+<area shape="rect" id="node1" title="Create Sprites. Load the Images and set the Sprites. Creates a block of titles with 100 tiles...." alt="" coords="184,5,337,32"/>
+<area shape="rect" id="node2" href="$classArkanoid.html#a36be52a389d95dbc9f0d3a35626234c6" title="Default Constructor. Calls the InitializeVars() function." alt="" coords="5,5,136,32"/>
+</map>

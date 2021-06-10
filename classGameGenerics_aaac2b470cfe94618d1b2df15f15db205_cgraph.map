@@ -1,0 +1,4 @@
+<map id="GameGenerics::GameOverScreen" name="GameGenerics::GameOverScreen">
+<area shape="rect" id="node1" title="Display a game over screen at the end of the game alone with user&#39;s score. Currently,..." alt="" coords="5,5,224,32"/>
+<area shape="rect" id="node2" href="$classGameGenerics.html#afc178a640cd4dcbd931606775a90183f" title="Pure virtual function inherited from GameGenerics.h Each game calculate scores differently and theref..." alt="" coords="272,5,475,32"/>
+</map>

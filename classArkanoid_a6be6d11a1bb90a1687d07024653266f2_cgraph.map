@@ -1,0 +1,4 @@
+<map id="Arkanoid::SetBoundaries" name="Arkanoid::SetBoundaries">
+<area shape="rect" id="node1" title="Set the boundaries so ball will remian inside the window. Also, whenever the ball hits outside the pa..." alt="" coords="5,5,169,32"/>
+<area shape="rect" id="node2" href="$classArkanoid.html#af64a699f3079afb7a3a0fb8240131e4b" title="Remove a heart whenever user miss the ball and it hit outside the paddle." alt="" coords="217,5,348,32"/>
+</map>

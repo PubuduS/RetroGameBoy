@@ -1,0 +1,9 @@
+<map id="GameGenerics::GameOverScreen" name="GameGenerics::GameOverScreen">
+<area shape="rect" id="node1" title="Display a game over screen at the end of the game alone with user&#39;s score. Currently,..." alt="" coords="588,31,807,57"/>
+<area shape="rect" id="node2" href="$classArkanoid.html#ad2bed005f8bf9545d19aafaa6f83febd" title="Start the game and call other helper functions." alt="" coords="385,5,540,32"/>
+<area shape="rect" id="node5" href="$classSnake.html#a3f8acf029ec0da41061d1b628d6e2322" title="Start the game." alt="" coords="399,56,526,83"/>
+<area shape="rect" id="node3" href="$classArkanoid.html#a816aeda579b471a8c215b432746ad986" title="Create Sprites. Load the Images and set the Sprites. Creates a block of titles with 100 tiles...." alt="" coords="184,5,337,32"/>
+<area shape="rect" id="node4" href="$classArkanoid.html#a36be52a389d95dbc9f0d3a35626234c6" title="Default Constructor. Calls the InitializeVars() function." alt="" coords="5,5,136,32"/>
+<area shape="rect" id="node6" href="$classSnake.html#a9cdb7d1f6250738482848cbce2915f5f" title="Create Sprites. Load the Images and set the Sprites. Call PlaySnake() function to start the game." alt="" coords="191,56,330,83"/>
+<area shape="rect" id="node7" href="$classSnake.html#aa9cbcdb4b25d84cbf83509039cac8d01" title="Default Constructor. initialize variables." alt="" coords="19,56,122,83"/>
+</map>

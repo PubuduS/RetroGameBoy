@@ -1,0 +1,4 @@
+<map id="MineSweeper::InitializeVars" name="MineSweeper::InitializeVars">
+<area shape="rect" id="node1" title="Load UI element. Create a window and initialize sprite. Initialize UI and data grids." alt="" coords="240,5,421,32"/>
+<area shape="rect" id="node2" href="$classMineSweeper.html#a88a359718ad16b998302ac4119e6d82f" title=" " alt="" coords="5,5,192,32"/>
+</map>

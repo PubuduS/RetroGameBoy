@@ -1,0 +1,4 @@
+<map id="MineSweeper::DrawOnUI" name="MineSweeper::DrawOnUI">
+<area shape="rect" id="node1" title="Draw the UI Element. Mark the tiles with appopriate sprites." alt="" coords="5,5,173,32"/>
+<area shape="rect" id="node2" href="$classMineSweeper.html#a505f54f8aeff9b9be8b4ad1b0acabc38" title="Pure virtual function inherited from GameGenerics.h Each game calculate scores differently and theref..." alt="" coords="221,5,416,32"/>
+</map>

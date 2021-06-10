@@ -1,0 +1,6 @@
+<map id="MineSweeper::PlayMineSweeper" name="MineSweeper::PlayMineSweeper">
+<area shape="rect" id="node1" title="Start the game and call other helper functions." alt="" coords="5,31,216,57"/>
+<area shape="rect" id="node2" href="$classMineSweeper.html#a4b75cfc1d15d486ea1fbc7ebb120c552" title="Draw the UI Element. Mark the tiles with appopriate sprites." alt="" coords="293,5,461,32"/>
+<area shape="rect" id="node4" href="$classMineSweeper.html#a52d50e61c88a7ba803ca9f65ad946b09" title="Handle Right and Left Clicks. Left Click will open titles. Right Click will mark the title with flag." alt="" coords="264,56,491,83"/>
+<area shape="rect" id="node3" href="$classMineSweeper.html#a505f54f8aeff9b9be8b4ad1b0acabc38" title="Pure virtual function inherited from GameGenerics.h Each game calculate scores differently and theref..." alt="" coords="539,5,733,32"/>
+</map>

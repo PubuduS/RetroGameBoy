@@ -1,0 +1,6 @@
+<map id="Arkanoid::SetBoundaries" name="Arkanoid::SetBoundaries">
+<area shape="rect" id="node1" title="Set the boundaries so ball will remian inside the window. Also, whenever the ball hits outside the pa..." alt="" coords="588,5,752,32"/>
+<area shape="rect" id="node2" href="$classArkanoid.html#ad2bed005f8bf9545d19aafaa6f83febd" title="Start the game and call other helper functions." alt="" coords="385,5,540,32"/>
+<area shape="rect" id="node3" href="$classArkanoid.html#a816aeda579b471a8c215b432746ad986" title="Create Sprites. Load the Images and set the Sprites. Creates a block of titles with 100 tiles...." alt="" coords="184,5,337,32"/>
+<area shape="rect" id="node4" href="$classArkanoid.html#a36be52a389d95dbc9f0d3a35626234c6" title="Default Constructor. Calls the InitializeVars() function." alt="" coords="5,5,136,32"/>
+</map>

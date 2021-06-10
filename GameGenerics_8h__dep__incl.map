@@ -1,0 +1,13 @@
+<map id="include/GameGenerics.h" name="include/GameGenerics.h">
+<area shape="rect" id="node1" title=" " alt="" coords="355,5,519,32"/>
+<area shape="rect" id="node2" href="$Arkanoid_8h.html" title=" " alt="" coords="46,80,174,107"/>
+<area shape="rect" id="node5" href="$MineSweeper_8h.html" title=" " alt="" coords="199,80,355,107"/>
+<area shape="rect" id="node7" href="$Snake_8h.html" title=" " alt="" coords="379,80,494,107"/>
+<area shape="rect" id="node9" href="$Tetris_8h.html" title=" " alt="" coords="519,80,629,107"/>
+<area shape="rect" id="node11" href="$GameGenerics_8cpp.html" title=" " alt="" coords="654,80,809,107"/>
+<area shape="rect" id="node3" href="$Arkanoid_8cpp.html" title=" " alt="" coords="5,155,124,181"/>
+<area shape="rect" id="node4" href="$main_8cpp.html" title=" " alt="" coords="319,155,415,181"/>
+<area shape="rect" id="node6" href="$MineSweeper_8cpp.html" title=" " alt="" coords="149,155,295,181"/>
+<area shape="rect" id="node8" href="$Snake_8cpp.html" title=" " alt="" coords="440,155,545,181"/>
+<area shape="rect" id="node10" href="$Tetris_8cpp.html" title=" " alt="" coords="570,155,671,181"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="Tetris::Check" name="Tetris::Check">
+<area shape="rect" id="node1" title="Check the boundaries." alt="" coords="515,56,613,83"/>
+<area shape="rect" id="node2" href="$classTetris.html#a2589e43788a300a6b9a9920ad78439f0" title="Move shapes down for each tick." alt="" coords="271,5,467,32"/>
+<area shape="rect" id="node5" href="$classTetris.html#a00dfca9382a1ce0c36bf60640918dc0e" title="Move shapes horizontally." alt="" coords="311,56,426,83"/>
+<area shape="rect" id="node6" href="$classTetris.html#a7d023c3df2c6cdbd6246f2efe02f668a" title="Allow user to rotate shapes." alt="" coords="309,107,429,133"/>
+<area shape="rect" id="node3" href="$classTetris.html#abab1053ed447d24f87d7c870999b247d" title="Play Tetris Game." alt="" coords="104,56,223,83"/>
+<area shape="rect" id="node4" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,56,56,83"/>
+</map>

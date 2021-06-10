@@ -1,0 +1,5 @@
+<map id="MineSweeper::CalculateDistanceFromAllDirections" name="MineSweeper::CalculateDistanceFromAllDirections">
+<area shape="rect" id="node1" title="This will calculate all directions from the current position." alt="" coords="469,5,681,47"/>
+<area shape="rect" id="node2" href="$classMineSweeper.html#a45fbc0e070f2818b7d9dfe6cd111985b" title="Load UI element. Create a window and initialize sprite. Initialize UI and data grids." alt="" coords="240,13,421,39"/>
+<area shape="rect" id="node3" href="$classMineSweeper.html#a88a359718ad16b998302ac4119e6d82f" title=" " alt="" coords="5,13,192,39"/>
+</map>

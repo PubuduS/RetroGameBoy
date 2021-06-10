@@ -1,0 +1,8 @@
+<map id="MineSweeper::InitializeVars" name="MineSweeper::InitializeVars">
+<area shape="rect" id="node1" title="Load UI element. Create a window and initialize sprite. Initialize UI and data grids." alt="" coords="5,42,187,69"/>
+<area shape="rect" id="node2" href="$classMineSweeper.html#a3229fdbe70f135aba1a6a38f5afddf80" title="This will calculate all directions from the current position." alt="" coords="235,5,447,47"/>
+<area shape="rect" id="node3" href="$classMineSweeper.html#a694832ef37f9e5265b9fb1406378f61a" title="Start the game and call other helper functions." alt="" coords="235,71,446,98"/>
+<area shape="rect" id="node4" href="$classMineSweeper.html#a4b75cfc1d15d486ea1fbc7ebb120c552" title="Draw the UI Element. Mark the tiles with appopriate sprites." alt="" coords="524,46,692,73"/>
+<area shape="rect" id="node6" href="$classMineSweeper.html#a52d50e61c88a7ba803ca9f65ad946b09" title="Handle Right and Left Clicks. Left Click will open titles. Right Click will mark the title with flag." alt="" coords="495,97,721,123"/>
+<area shape="rect" id="node5" href="$classMineSweeper.html#a505f54f8aeff9b9be8b4ad1b0acabc38" title="Pure virtual function inherited from GameGenerics.h Each game calculate scores differently and theref..." alt="" coords="769,46,964,73"/>
+</map>

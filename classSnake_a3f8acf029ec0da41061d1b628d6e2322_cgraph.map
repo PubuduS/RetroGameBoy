@@ -1,0 +1,12 @@
+<map id="Snake::PlaySnake" name="Snake::PlaySnake">
+<area shape="rect" id="node1" title="Start the game." alt="" coords="5,81,132,108"/>
+<area shape="rect" id="node2" href="$classSnake.html#ae834c851fc05df207b9dbe566e1dd01a" title="Draw sprites on the window." alt="" coords="221,5,357,32"/>
+<area shape="rect" id="node3" href="$classGameGenerics.html#aaac2b470cfe94618d1b2df15f15db205" title="Display a game over screen at the end of the game alone with user&#39;s score. Currently,..." alt="" coords="180,56,399,83"/>
+<area shape="rect" id="node5" href="$classSnake.html#a4c67d4d0295d43968e9ddac8e669041c" title="Allow user to control snake by using arrow keys." alt="" coords="222,107,357,133"/>
+<area shape="rect" id="node6" href="$classSnake.html#a305dc6647abc73b3efa0d16619c4fda4" title="Move Snake across the grid per Tick." alt="" coords="222,157,357,184"/>
+<area shape="rect" id="node4" href="$classGameGenerics.html#afc178a640cd4dcbd931606775a90183f" title="Pure virtual function inherited from GameGenerics.h Each game calculate scores differently and theref..." alt="" coords="447,56,649,83"/>
+<area shape="rect" id="node7" href="$classSnake.html#a4f035156d0e55694c6a7ee49c47cb088" title="If snake cross the boundary of the window make it reappear on the opposite side of the window." alt="" coords="468,107,628,133"/>
+<area shape="rect" id="node8" href="$classSnake.html#a47642eb0acecfe31e96a0cb16df50665" title="Whenever snake tries to eat itself game is over." alt="" coords="468,157,628,184"/>
+<area shape="rect" id="node9" href="$classSnake.html#ab86309db8e545191a171322136bce6d1" title="Whenever snake eats a fruit make it grow by 1 square." alt="" coords="475,208,621,235"/>
+<area shape="rect" id="node10" href="$classSnake.html#aa6ed78be5a786c96a9ddf3399d25b1ad" title="Set the direction to move the snake. 0 indicates down. 3 indicates up. 1 indicates left...." alt="" coords="454,259,642,285"/>
+</map>

@@ -1,0 +1,14 @@
+<map id="Snake::Snake" name="Snake::Snake">
+<area shape="rect" id="node1" title="Default Constructor. initialize variables." alt="" coords="5,81,108,108"/>
+<area shape="rect" id="node2" href="$classSnake.html#a9cdb7d1f6250738482848cbce2915f5f" title="Create Sprites. Load the Images and set the Sprites. Call PlaySnake() function to start the game." alt="" coords="156,81,295,108"/>
+<area shape="rect" id="node3" href="$classSnake.html#a3f8acf029ec0da41061d1b628d6e2322" title="Start the game." alt="" coords="343,81,469,108"/>
+<area shape="rect" id="node4" href="$classSnake.html#ae834c851fc05df207b9dbe566e1dd01a" title="Draw sprites on the window." alt="" coords="559,5,695,32"/>
+<area shape="rect" id="node5" href="$classGameGenerics.html#aaac2b470cfe94618d1b2df15f15db205" title="Display a game over screen at the end of the game alone with user&#39;s score. Currently,..." alt="" coords="517,56,736,83"/>
+<area shape="rect" id="node7" href="$classSnake.html#a4c67d4d0295d43968e9ddac8e669041c" title="Allow user to control snake by using arrow keys." alt="" coords="559,107,694,133"/>
+<area shape="rect" id="node8" href="$classSnake.html#a305dc6647abc73b3efa0d16619c4fda4" title="Move Snake across the grid per Tick." alt="" coords="559,157,694,184"/>
+<area shape="rect" id="node6" href="$classGameGenerics.html#afc178a640cd4dcbd931606775a90183f" title="Pure virtual function inherited from GameGenerics.h Each game calculate scores differently and theref..." alt="" coords="784,56,987,83"/>
+<area shape="rect" id="node9" href="$classSnake.html#a4f035156d0e55694c6a7ee49c47cb088" title="If snake cross the boundary of the window make it reappear on the opposite side of the window." alt="" coords="805,107,965,133"/>
+<area shape="rect" id="node10" href="$classSnake.html#a47642eb0acecfe31e96a0cb16df50665" title="Whenever snake tries to eat itself game is over." alt="" coords="805,157,965,184"/>
+<area shape="rect" id="node11" href="$classSnake.html#ab86309db8e545191a171322136bce6d1" title="Whenever snake eats a fruit make it grow by 1 square." alt="" coords="812,208,959,235"/>
+<area shape="rect" id="node12" href="$classSnake.html#aa6ed78be5a786c96a9ddf3399d25b1ad" title="Set the direction to move the snake. 0 indicates down. 3 indicates up. 1 indicates left...." alt="" coords="791,259,979,285"/>
+</map>

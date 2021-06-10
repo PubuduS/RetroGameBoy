@@ -1,0 +1,10 @@
+<map id="Arkanoid::InitializeVars" name="Arkanoid::InitializeVars">
+<area shape="rect" id="node1" title="Create Sprites. Load the Images and set the Sprites. Creates a block of titles with 100 tiles...." alt="" coords="5,81,159,108"/>
+<area shape="rect" id="node2" href="$classArkanoid.html#ad2bed005f8bf9545d19aafaa6f83febd" title="Start the game and call other helper functions." alt="" coords="207,81,361,108"/>
+<area shape="rect" id="node3" href="$classArkanoid.html#ae7dd81eaaece6367efadf1a2602d8916" title="This will check collisions with the tiles and the ball. Everytime the ball hit a tile,..." alt="" coords="433,5,605,32"/>
+<area shape="rect" id="node4" href="$classGameGenerics.html#aaac2b470cfe94618d1b2df15f15db205" title="Display a game over screen at the end of the game alone with user&#39;s score. Currently,..." alt="" coords="409,56,628,83"/>
+<area shape="rect" id="node6" href="$classArkanoid.html#a6be6d11a1bb90a1687d07024653266f2" title="Set the boundaries so ball will remian inside the window. Also, whenever the ball hits outside the pa..." alt="" coords="437,107,601,133"/>
+<area shape="rect" id="node8" href="$classArkanoid.html#ad25f13286a2b4543acfd24c9033cd89e" title="Set the paddle to move right and left by pressing right and left arrow keys." alt="" coords="445,157,592,184"/>
+<area shape="rect" id="node5" href="$classGameGenerics.html#afc178a640cd4dcbd931606775a90183f" title="Pure virtual function inherited from GameGenerics.h Each game calculate scores differently and theref..." alt="" coords="676,56,879,83"/>
+<area shape="rect" id="node7" href="$classArkanoid.html#af64a699f3079afb7a3a0fb8240131e4b" title="Remove a heart whenever user miss the ball and it hit outside the paddle." alt="" coords="712,107,843,133"/>
+</map>
